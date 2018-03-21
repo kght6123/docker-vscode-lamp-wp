@@ -30,6 +30,7 @@ Docker（docker-compose）と、VSCodeのインストール済みが前提条件
     * WordPress
 
         http://localhost:28080
+        http://localhost:28080/wp-admin/
 
 
 ## Detail
