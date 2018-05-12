@@ -1,6 +1,6 @@
 # LAMP VScode debug (and Wordpress) from Docker
 
-PHP＋SymfonyとWordpressの学習の為に構築したDocker環境です。
+PHPと、Wordpressの学習の為に構築したDocker環境です。
 
 ホストOSから、VSCodeでリモートデバッグが可能です。
 
@@ -13,25 +13,17 @@ Docker（docker-compose）と、VSCodeのインストール済みが前提条件
 ## Installation
 
 1. Clone
+
 2. `apache/xdebug.ini`の`xdebug.remote_host`を、Macのコンピュータ名に置き換え。
 
 3. `build.sh`と`up.sh`を実行してください。
 
 4. 下記のURLでアクセスできます。
 
-    * PHPデバッグ環境
-
-        http://localhost:8080/sample/index.php
-
-    * PHPMyAdmin
-
-        http://localhost:18080
-
-    * WordPress
-
-        http://localhost:28080
-        http://localhost:28080/wp-admin/
-
+    * PHP http://localhost:8080/sample/index.php
+    * PHPMyAdmin http://localhost:18080
+    * WordPress http://localhost:28080
+    * WordPress 管理コンソール http://localhost:28080/wp-admin/
 
 ## Detail
 
@@ -57,11 +49,6 @@ Docker（docker-compose）と、VSCodeのインストール済みが前提条件
 
     `sql/mysql-wordpress-dump.sql`はWordpressのDBのダンプ情報です。`wpdump.sh`を実行して作成しています。
 
-* Symfonyプロジェクト作成
-
-```sh
-docker exec --user docker:docker --workdir /var/www/html lamp_apache_1 composer create-project symfony/website-skeleton symfony_study
-```
 
 * 初期化方法
 
