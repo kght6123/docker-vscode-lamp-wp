@@ -1,0 +1,113 @@
+
+blockquote, .post-password-form label,
+a:hover, a:focus, a:active, .post-navigation
+.meta-nav, .image-navigation, .comment-navigation,
+.widget_recent_entries .post-date, .widget_rss .rss-date,
+.widget_rss cite, .site-description,
+.author-bio, .entry-footer, .entry-footer a,
+.sticky-post, .taxonomy-description,
+.entry-caption, .comment-metadata,
+.pingback .edit-link, .comment-metadata a, .pingback .comment-edit-link,
+.comment-form label, .comment-notes,
+.comment-awaiting-moderation, .logged-in-as,
+.form-allowed-tags, .site-info, .site-info a,
+.wp-caption .wp-caption-text, .gallery-caption,
+.widecolumn label, .widecolumn .mu_register label {
+ color: #3e3e3e !important;
+}
+
+body, blockquote cite, blockquote small,
+.main-navigation a, .menu-toggle, .dropdown-toggle,
+.social-navigation a, .post-navigation a, .pagination a:hover,
+.pagination a:focus, .widget-title a, .site-branding .site-title a,
+.entry-title a, .page-links>.page-links-title, .comment-author,
+.comment-reply-title small a:hover, .comment-reply-title small a:focus {
+ color: #1a1a1a !important;
+}
+
+body {
+ background-color: #eee !important;
+ background: #eee !important;
+}
+.site {
+ background-color: #f8f8f8 !important;
+}
+.widget-area {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.widget-area ul li::after {
+	border-right: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+}
+
+/* Gistライトテーマ */
+/* Line Numbers */
+.gist-data tbody td:nth-of-type(1) {
+	color: #f8f8f8 !important;
+}
+/* Code */
+.gist-data tbody td:nth-of-type(2){
+	color: #222 !important;
+}
+/* All & Footer & body */
+.gist-data, .gist-data table, .gist-data tbody {
+	background-color: #ccc !important;
+	color: #333 !important;
+}
+.gist-meta, .gist-meta * {
+	background-color: #c6c6c6 !important;
+	color: #333 !important;
+}
+.gist {
+	background-color: rgba(0, 0, 0, 0) !important;
+	color: #333 !important;
+}
+.gist, .gist-data, .gist-data table td, .gist-file, .gist-meta {
+	border: 1px solid rgba(0, 0, 0, 0) !important;
+}
+/* Comments */
+.pl-c
+{
+	color: #57A64A !important;
+}
+/* Function */
+.pl-k
+{
+	color: rgb(229, 173, 255) !important;
+}
+/* Function Name */
+.pl-en
+{
+	color: rgb(255, 173, 230) !important;
+}
+/* Function Method */
+.pl-c1
+{
+	color: rgb(255, 196, 196) !important;
+}
+/* "'s around Strings */
+.pl-pds
+{
+	color: rgb(204, 173, 255)  !important;
+}
+/* Strings */
+.pl-s
+{
+	color: rgb(204, 173, 255)  !important;
+}
+/* val */
+.pl-smi
+{
+	color: rgb(159, 193, 255) !important;
+}
+
+.tbl {
+	background-color: #eee !important;
+}
+.tbl th,
+.tbl td {
+	border-color: #f8f8f8 !important;
+}
+.tbl th {
+	background-color: #ddd !important;
+}
