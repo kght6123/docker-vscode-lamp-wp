@@ -42,7 +42,11 @@ footer .site-info {
 	list-style: none;
 	padding-bottom: .25em;
 }
-.widget-area ul li::after {
+.widget-area .widget_recent_entries  ul li::after,
+.widget-area .widget_recent_comments ul li::after,
+.widget-area .widget_archive         ul li::after,
+.widget-area .widget_categories      ul li::after,
+.widget-area .widget_meta            ul li::after {
 	display: block;
 	content: '';
 	position: absolute;
