@@ -14,6 +14,15 @@ Template: twentysixteen
 Twenty Sixteen Child Theme. Bootstrap4 include and Gist OK.
 */
 
+p {
+	margin: 0.75rem 0.5rem 2rem !important;
+}
+.wp-block-image {
+	margin: 1.5rem !important;
+}
+.wp-block-quote {
+	margin: 1.5rem 2rem 3rem 2rem !important;
+}
 .widget {
 	border-top: 0 !important;
 	margin-bottom: 0 !important;

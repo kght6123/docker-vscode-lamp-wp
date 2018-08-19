@@ -77,32 +77,32 @@ body {
 /* Function */
 .pl-k
 {
-	color: rgb(229, 173, 255) !important;
+	color: rgb(146, 0, 219) !important;
 }
 /* Function Name */
 .pl-en
 {
-	color: rgb(255, 173, 230) !important;
+	color: rgb(219, 0, 146) !important;
 }
 /* Function Method */
 .pl-c1
 {
-	color: rgb(255, 196, 196) !important;
+	color: rgb(219, 146, 146) !important;
 }
 /* "'s around Strings */
 .pl-pds
 {
-	color: rgb(204, 173, 255)  !important;
+	color: rgb(56, 145, 204)  !important;
 }
 /* Strings */
 .pl-s
 {
-	color: rgb(204, 173, 255)  !important;
+	color: rgb(183, 60, 255)  !important;
 }
 /* val */
 .pl-smi
 {
-	color: rgb(159, 193, 255) !important;
+	color: rgb(41, 116, 255) !important;
 }
 
 .tbl {
