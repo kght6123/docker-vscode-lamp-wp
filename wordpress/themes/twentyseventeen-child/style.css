@@ -16,3 +16,238 @@ Twenty Seventeen Child Theme. Bootstrap4 include and Gist OK.
 .gist .file {
 	height: auto;
 }
+.blln .blln-icon .name {
+	color: rgba(255, 255, 255, 0.8);
+}
+.red.blln {
+	color: rgba(0, 0, 0, 0.7);
+}
+.red.right .msg::before {
+	border-left-color: #ef9a9a;
+}
+.red.left .msg::before {
+	border-right-color: #ef9a9a;
+}
+.red .blln-icon img {
+	background-color: #ef9a9a;
+	border-color: #ef9a9a;
+}
+.red .msg {
+	background-color: #ef9a9a;
+	border-color: #ef9a9a;
+}
+
+.pink.blln {
+	color: rgba(0, 0, 0, 0.7);
+}
+.pink.right .msg::before {
+	border-left-color: #F48FB1;
+}
+.pink.left .msg::before {
+	border-right-color: #F48FB1;
+}
+.pink .blln-icon img {
+	background-color: #F48FB1;
+	border-color: #F48FB1;
+}
+.pink .msg {
+	background-color: #F48FB1;
+	border-color: #F48FB1;
+}
+
+.blue.blln {
+	color: rgba(0, 0, 0, 0.7);
+}
+.blue.right .msg::before {
+	border-left-color: #9FA8DA;
+}
+.blue.left .msg::before {
+	border-right-color: #9FA8DA;
+}
+.blue .blln-icon img {
+	background-color: #9FA8DA;
+	border-color: #9FA8DA;
+}
+.blue .msg {
+	background-color: #9FA8DA;
+	border-color: #9FA8DA;
+}
+
+.yellow.blln {
+	color: rgba(0, 0, 0, 0.7);
+}
+.yellow.right .msg::before {
+	border-left-color: #FFEB3B;
+}
+.yellow.left .msg::before {
+	border-right-color: #FFF176;
+}
+.yellow .blln-icon img {
+	background-color: #FFF176;
+	border-color: #FFF176;
+}
+.yellow .msg {
+	background-color: #FFF176;
+	border-color: #FFF176;
+}
+
+.green.blln {
+	color: rgba(0, 0, 0, 0.7);
+}
+.green.right .msg::before {
+	border-left-color: #AED581;
+}
+.green.left .msg::before {
+	border-right-color: #AED581;
+}
+.green .blln-icon img {
+	background-color: #AED581;
+	border-color: #AED581;
+}
+.green .msg {
+	background-color: #AED581;
+	border-color: #AED581;
+}
+
+.black.blln {
+	color: rgba(255, 255, 255, 0.7);
+}
+.black.right .msg::before {
+	border-left-color: #616161;
+}
+.black.left .msg::before {
+	border-right-color: #616161;
+}
+.black .blln-icon img {
+	background-color: #616161;
+	border-color: #616161;
+}
+.black .msg {
+	background-color: #616161;
+	border-color: #616161;
+}
+
+.white.blln {
+	color: rgba(0, 0, 0, 0.7);
+}
+.white.right .msg::before {
+	border-left-color: #E0E0E0;
+}
+.white.left .msg::before {
+	border-right-color: #E0E0E0;
+}
+.white .blln-icon img {
+	background-color: #E0E0E0;
+	border-color: #E0E0E0;
+}
+.white .msg {
+	background-color: #E0E0E0;
+	border-color: #E0E0E0;
+}
+
+.blln {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: transparent;
+	background-image: none;
+	background-origin: padding-box;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	box-sizing: border-box;
+	content: normal;
+	display: block;
+	font-size: 0.95em;
+	line-height: 1.5;
+	margin: 1em 0 1.3em;
+	word-wrap: break-word;
+	box-sizing: border-box;
+}
+
+.blln.right .blln-icon {
+	float: right;
+}
+.blln.right .msg {
+	float: left;
+	right: auto;
+	top: auto;
+}
+.blln.right .msg::before {
+	right: -1.0em;
+	border-left-width: 1.1em;
+	border-left-style: solid;
+}
+
+.blln.left .blln-icon {
+	float: left;
+}
+.blln.left .msg {
+	float: right;
+	left: auto;
+	top: auto;
+}
+.blln.left .msg::before {
+	left: -1.0em;
+	border-right-width: 1.1em;
+	border-right-style: solid;
+}
+
+.blln .blln-icon {
+	margin: 0;
+	text-align: center;
+}
+.blln .blln-icon img {
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	max-height: 100%;
+	height: 5em;
+	margin: 0;
+	vertical-align: bottom;
+	max-width: 100%;
+	width: 5em;
+}
+.blln .blln-icon .name {
+	font-size: 0.7em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	text-align: center;
+}
+.blln .msg {
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 12px;
+
+	padding: 1em 1em 0.8em 1em;
+	font-size: 0.91em;
+
+	margin-top: 0.5em;
+	padding: 1em 1em 0.8em 1em;
+	position: relative;
+	width: calc(100% - 7em);
+}
+.blln .msg::before {
+	content: "";
+	position: absolute;
+	border-bottom: 0.8em solid transparent;
+	border-top: 0.8em solid transparent;
+	top: 1em;
+}
+/*
+.tbl {
+	width: 100%;
+	border-collapse: collapse;
+}*/
+.tbl td.good {
+	background-color: #ff5252;
+}
+/*.tbl th,
+.tbl td {
+	box-sizing: border-box;
+	border-width: 0.1em;
+	border-style: solid;
+	text-align: center;
+}*/
